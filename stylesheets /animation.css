@@ -21,7 +21,6 @@
     transform: rotateY(360deg);
   }
 }
-<<<<<<< HEAD:stylesheets 12.37.32/animation.css
 @keyframes plus_rotate {
   0% {
     transform: rotate(0deg);
@@ -235,5 +234,3 @@
     box-shadow: none;
   }
 }
-=======
->>>>>>> dbcb4ba46ba4d71e6d811ac40fd2472737161dd2:stylesheets/animation.css
