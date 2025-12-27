@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stylesheets/style.css" />
-    <title>Document</title>
+    <link rel="icon" href="images/fav_icon.svg" type="image/x-icon" />
+    <link rel="stylesheet" />
+    <title>HOLOZOO</title>
   </head>
   <body>
     <div class="flex_div_1_2_3_4">
@@ -51,32 +53,20 @@
             </div>
           </div>
           <div class="flex_p_div1">
-            <p>//PRICE: 23859.0</p>
-            <p>//TIME: 20:00</p>
+            <p>//PRICE: <span id="price-odometer">23859.0</span></p>
+            <p>//TIME: <span id="time-odometer">20:00</span></p>
           </div>
         </div>
         <!-- 3 div -->
         <div id="div_3">
-          <img src="images/GIRAFF DIV2.svg" alt="" />
+          <div class="animationGiraffe">
+            <img class="GIRAFF" src="images/GIRAFF DIV2.svg" alt="" />
+            <img class="GIRAFF" src="images/giraff_on.svg" alt="" />
+          </div>
 
-          <div class="flex_circles_div_3">
-            <div class="circle_div_3"></div>
-            <p>0:08</p>
-          </div>
-          <div class="flex_circles_div_3">
-            <div class="circle_div_3"></div>
-            <p>10:00</p>
-          </div>
-          <div class="flex_circles_div_3">
-            <div class="circle_div_3"></div>
-            <p>15:00</p>
-          </div>
-          <div class="flex_circles_div_3">
-            <div class="circle_div_3"></div>
-            <p>20:00</p>
-          </div>
           <div class="rect_div3"></div>
           <div class="rect_2_div3"></div>
+          <div class="rect_3_div3"></div>
         </div>
       </div>
       <!-- flex 2 and 4 dives -->
@@ -99,66 +89,64 @@
         </div>
         <!-- 4 div -->
         <div id="div_4">
-          <div class="flex_scale_div4">
-            <div class="flex_max_div4">
-              <div class="max_div4"><p>MAX</p></div>
-              <div class="max_div4"><p>MID</p></div>
-              <div class="max_div4"><p>MIN</p></div>
-            </div>
-            <img src="images/scale_div4.svg" alt="" />
-          </div>
           <div class="about_zoo_div_4">
             <div class="about_zoo_p_div_4">
               <p>О ЗООПАРКЕ</p>
             </div>
             <div class="about_zoo__div_4">
               <p>
-                Забудьте всё, что вы&nbsp;знали о&nbsp;зоопарках! Больше никаких
-                клеток и ограждений. В&nbsp;HoloZoo вы&nbsp;окажетесь нос
-                к&nbsp;носу с&nbsp;королем саванны, пройдете под брюхом
-                гигантского диплодока и&nbsp;услышите рев саблезубого тигра.
+                Забудьте всё, что вы&nbsp;знали о&nbsp;зоопарках! В&nbsp;HOLOZOO
+                вы&nbsp;окажетесь нос к&nbsp;носу с&nbsp;королем саванны,
+                и&nbsp;услышите рев саблезубого тигра.
               </p>
+              <div class="OK">
+                <p>OK</p>
+              </div>
             </div>
           </div>
 
-          <div class="error_div_4">
+          <div class="error_div_4 error_1">
             <div class="error_p_div_4">
               <p>ERROR</p>
             </div>
             <div class="error__div_4">
               <p>FALLS</p>
+              <div class="OK">
+                <p>OK</p>
+              </div>
             </div>
           </div>
-          <div class="error_div_4">
+          <div class="error_div_4 error_2">
             <div class="error_p_div_4">
               <p>ERROR</p>
             </div>
             <div class="error__div_4">
               <p>FALLS</p>
+              <div class="OK">
+                <p>OK</p>
+              </div>
             </div>
           </div>
-          <div class="error_div_4">
+          <div class="error_div_4 error_3">
             <div class="error_p_div_4">
               <p>ERROR</p>
             </div>
             <div class="error__div_4">
               <p>FALLS</p>
+              <div class="OK">
+                <p>OK</p>
+              </div>
             </div>
           </div>
-          <div class="error_div_4">
+          <div class="error_div_4 error_4">
             <div class="error_p_div_4">
               <p>ERROR</p>
             </div>
             <div class="error__div_4">
               <p>FALLS</p>
-            </div>
-          </div>
-          <div class="error_div_4">
-            <div class="error_p_div_4">
-              <p>ERROR</p>
-            </div>
-            <div class="error__div_4">
-              <p>FALLS</p>
+              <div class="OK">
+                <p>OK</p>
+              </div>
             </div>
           </div>
         </div>
@@ -170,7 +158,7 @@
       <div id="div_5">
         <p>
           <span class="font_D_div2">Н</span>А<span class="font_D_div2">Ш</span>И
-          <br />
+          <br class="br" />
           ЖИ<span class="font_D_div2">ВО</span>ТН<span class="font_D_div2"
             >Ы</span
           >Е
@@ -179,32 +167,72 @@
       <!-- 6 div -->
       <div id="div_6">
         <div class="flex_animals_all">
+          <!-- DEAR -->
           <div class="animal_flex">
             <img class="nomber_animal" src="images/001.svg" alt="" />
-            <img class="stroke_animal" src="images/DEER DIV 6.svg" alt="DEER" />
+            <!-- анимация оленя -->
+            <div class="animationDEER">
+              <img
+                class="stroke_animal, DEER"
+                src="images/DEER DIV 6.svg"
+                alt="DEER"
+              />
+              <img class="stroke_animal, DEER" src="images/deer_on.svg" />
+            </div>
             <p>ROYAL DEER</p>
           </div>
+          <!-- CROCODILE -->
           <div class="animal_flex">
             <img class="nomber_animal" src="images/002.svg" alt="" />
-            <img
-              class="stroke_animal"
-              src="images/CROCODILE DIV 6.svg"
-              alt="CROCODILE"
-            />
+            <!-- анимация крокодила -->
+            <div class="animationCROCODILE">
+              <img
+                class="stroke_animal, CROCODILE"
+                src="images/CROCODILE DIV 6.svg"
+                alt="CROCODILE"
+              />
+              <img
+                class="stroke_animal, CROCODILE"
+                src="images/crocodile_on.svg"
+                alt="CROCODILE"
+              />
+            </div>
             <p>GIANT CROCODILE</p>
           </div>
+          <!-- BEAR -->
           <div class="animal_flex">
             <img class="nomber_animal" src="images/003.svg" alt="" />
-            <img class="stroke_animal" src="images/BEAR DIV 6.svg" alt="BEAR" />
+            <!-- фнимация медведя -->
+            <div class="animationBEAR">
+              <img
+                class="stroke_animal, BEAR"
+                src="images/BEAR DIV 6.svg"
+                alt="BEAR"
+              />
+              <img
+                class="stroke_animal, BEAR"
+                src="images/bear_on.svg"
+                alt=""
+              />
+            </div>
             <p>NORTHERN BEAR</p>
           </div>
+          <!-- ELEPHANT -->
           <div class="animal_flex">
             <img class="nomber_animal" src="images/004.svg" alt="" />
-            <img
-              class="stroke_animal"
-              src="images/ELEPHANT DIV 6.svg"
-              alt="ELEPHANT"
-            />
+            <!-- анимация слона -->
+            <div class="animationELEPHANT">
+              <img
+                class="stroke_animal, ELEPHANT"
+                src="images/ELEPHANT DIV 6.svg"
+                alt="ELEPHANT"
+              />
+              <img
+                class="stroke_animal, ELEPHANT"
+                src="images/elephant_on.svg"
+                alt="ELEPHANT"
+              />
+            </div>
             <p>AFRICAN ELEPHANT</p>
           </div>
         </div>
@@ -214,7 +242,10 @@
     <!-- 7 div -->
     <div class="flex_div7_div8">
       <div id="div_7">
-        <img src="images/Asset 2.svg" alt="" />
+        <div class="animation_cardio">
+          <img class="cardio_line" src="images/cardio_1.svg" alt="" />
+          <img class="cardio_line" src="images/cardio_22.svg" alt="" />
+        </div>
       </div>
       <!-- 8 div -->
       <div id="div_8">
@@ -255,26 +286,8 @@
               <img src="images/run_scale.svg" alt="" />
               <img src="images/run_scale.svg" alt="" />
               <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
             </div>
             <div class="animation_scrollDown">
-              <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
-              <img src="images/run_scale.svg" alt="" />
               <img src="images/run_scale.svg" alt="" />
               <img src="images/run_scale.svg" alt="" />
               <img src="images/run_scale.svg" alt="" />
@@ -286,14 +299,32 @@
           </div>
           <div class="flex_health">
             <p>HEALTH</p>
-            <img src="images/heart_icon.svg" alt="" />
-            <img src="images/heart_icon.svg" alt="" />
-            <img src="images/heart_icon.svg" alt="" />
-            <img src="images/heart_icon.svg" alt="" />
-            <img src="images/heart_icon.svg" alt="" />
+            <div class="animationHeart">
+              <img class="HEART" src="images/heart_icon.svg" alt="" />
+              <img class="HEART" src="images/HEART_ON.svg" alt="" />
+            </div>
+            <div class="animationHeart">
+              <img class="HEART" src="images/heart_icon.svg" alt="" />
+              <img class="HEART" src="images/HEART_ON.svg" alt="" />
+            </div>
+            <div class="animationHeart">
+              <img class="HEART" src="images/heart_icon.svg" alt="" />
+              <img class="HEART" src="images/HEART_ON.svg" alt="" />
+            </div>
+            <div class="animationHeart">
+              <img class="HEART" src="images/heart_icon.svg" alt="" />
+              <img class="HEART" src="images/HEART_ON.svg" alt="" />
+            </div>
+            <div class="animationHeart">
+              <img class="HEART" src="images/heart_icon.svg" alt="" />
+              <img class="HEART" src="images/HEART_ON.svg" alt="" />
+            </div>
           </div>
         </div>
-        <img src="images/RABBIT.svg" alt="" />
+        <div class="rabbit-slideshow">
+          <img class="RABBIT" src="images/rabbit_run.svg" alt="" />
+          <img class="RABBIT" src="images/rabbit_state.svg" alt="" />
+        </div>
       </div>
       <!-- 10 div -->
       <div id="div_10">
@@ -303,12 +334,8 @@
             <p class="under_icon_text_10_div">WORLD</p>
           </div>
           <div class="flex_all_speed">
-            <div class="dash_stroke_speed">
-              <div class="stroke_speed">
-                <p>95%</p>
-              </div>
-            </div>
-            <p class="under_icon_text_10_div">SPEED</p>
+            <img src="images/gear_icon.svg" alt="" />
+            <p class="under_icon_text_10_div">GEAR</p>
           </div>
         </div>
       </div>
@@ -390,26 +417,22 @@
         <!-- 12 div -->
         <div id="div_12">
           <div class="round_div">
-            <img src="images/plus_icon.svg" alt="" />
+            <img class="plus" src="images/plus_icon.svg" alt="" />
           </div>
           <div class="round_div">
-            <img src="images/plus_icon.svg" alt="" />
+            <img class="plus" src="images/plus_icon.svg" alt="" />
           </div>
           <div class="round_div">
-            <img src="images/plus_icon.svg" alt="" />
+            <img class="plus" src="images/plus_icon.svg" alt="" />
           </div>
           <div class="round_div">
-            <img src="images/plus_icon.svg" alt="" />
+            <img class="plus" src="images/plus_icon.svg" alt="" />
           </div>
           <div class="round_div">
-            <img src="images/plus_icon.svg" alt="" />
+            <img class="plus" src="images/plus_icon.svg" alt="" />
           </div>
           <div class="round_div">
-            <img src="images/plus_icon.svg" alt="" />
-          </div>
-          <div class="second_fex_plus">
-            <img src="images/second_plus.svg" alt="" />
-            <img src="images/second_plus.svg" alt="" />
+            <img class="plus" src="images/plus_icon.svg" alt="" />
           </div>
         </div>
       </div>
